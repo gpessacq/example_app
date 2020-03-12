@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-10.times do |i|
+20.times do |i|
   Unit.create!(
     price: rand(0.00..9999.99),
     name: "house_#{i}",
